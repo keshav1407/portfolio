@@ -16,17 +16,3 @@ if (menuToggle && navLinks) {
     });
   });
 }
-
-const sections = document.querySelectorAll('main section[id]');
-const links = document.querySelectorAll('.nav-links a');
-
-const updateActiveLink = () => {
-  let current = '';
-  sections.forEach(section => {
-    if (window.scrollY >= section.offsetTop - 140) current = section.id;
-  });
-  links.forEach(link => link.classList.toggle('active', link.getAttribute('href') === `#${current}`));
-};
-
-window.addEventListener('scroll', updateActiveLink, { passive: true });
-updateActiveLink();
