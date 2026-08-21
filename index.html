@@ -1,169 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Keshav Portfolio</title>
-
-<link rel="stylesheet" href="css/style.css">
-
-<link
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Keshav A T — Full-Stack Developer & AI Enthusiast. B.Tech Information Technology student building modern web applications and AI-powered solutions.">
+  <title>Keshav A T | Full-Stack Developer & AI Enthusiast</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="#home">K<span>.</span></a>
+      <button class="menu-toggle" aria-label="Open menu"><i class="fas fa-bars"></i></button>
+      <ul class="nav-links">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<header>
-
-<nav>
-    <h2 class="logo">                    <span></span></h2>
-
-    <ul class="nav-links">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
-
-</header>
-
-<section class="hero">
-
-    <div class="hero-text">
-
-        <h3>Hello, I'm</h3>
-
-        <h1>Keshav A T</h1>
-
-        <h2>Full Stack Developer</h2>
-
-        <p>
-            Passionate Full Stack Developer who loves creating responsive,
-            modern, and user-friendly web applications using HTML, CSS,
-            JavaScript, React, Spring Boot, and MySQL.
-        </p>
-
-        <div class="buttons">
-            <a href="#" class="btn">Download Resume</a>
-            <a href="contact.html" class="btn2">Hire Me</a>
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, I'M KESHAV A T</p>
+        <h1>Full-Stack Developer <span>&amp;</span><br>AI Enthusiast.</h1>
+        <p class="hero-description">B.Tech Information Technology student passionate about building responsive web applications, polished frontend experiences, and intelligent solutions with AI.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">View My Work <i class="fas fa-arrow-right"></i></a>
+          <a href="https://www.linkedin.com/in/keshav-thangaraj/" target="_blank" rel="noopener" class="btn secondary">LinkedIn</a>
         </div>
+        <div class="quick-links">
+          <a href="https://github.com/keshav1407" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://leetcode.com/u/itz_kshvx_7/" target="_blank" rel="noopener"><i class="fas fa-code"></i> LeetCode</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="glow"></div>
+        <div class="profile-frame">
+          <img src="images/profile.jpg" alt="Keshav A T">
+        </div>
+        <div class="floating-card card-one"><i class="fas fa-code"></i><span>Build</span></div>
+        <div class="floating-card card-two"><i class="fas fa-brain"></i><span>Explore AI</span></div>
+      </div>
+    </section>
 
-    </div>
+    <section id="about" class="section container">
+      <div class="section-heading"><span>01</span><h2>About Me</h2></div>
+      <div class="about-grid">
+        <div>
+          <p class="lead">I'm an Information Technology student who enjoys turning ideas into useful digital products.</p>
+          <p>I focus on full-stack web development and have a growing interest in Artificial Intelligence. I like learning by building projects, experimenting with modern technologies, and improving both the user experience and the engineering behind an application.</p>
+        </div>
+        <div class="about-stats">
+          <div><strong>B.Tech</strong><span>Information Technology</span></div>
+          <div><strong>Full-Stack</strong><span>Web Development</span></div>
+          <div><strong>AI</strong><span>Exploring intelligent solutions</span></div>
+        </div>
+      </div>
+    </section>
 
-    <div class="hero-image">
-        <img src="images/profile.jpg" alt="Keshav">
-    </div>
+    <section id="skills" class="section container">
+      <div class="section-heading"><span>02</span><h2>Tech Stack</h2></div>
+      <div class="skills-grid">
+        <div class="skill-group"><h3>Languages</h3><div class="chips"><span>Java</span><span>Python</span><span>JavaScript</span></div></div>
+        <div class="skill-group"><h3>Web Development</h3><div class="chips"><span>HTML5</span><span>CSS3</span><span>React</span><span>Node.js</span><span>Express</span><span>Django</span><span>Spring Boot</span></div></div>
+        <div class="skill-group"><h3>Database & Tools</h3><div class="chips"><span>MySQL</span><span>Git</span><span>GitHub</span><span>VS Code</span></div></div>
+      </div>
+    </section>
 
-</section>
+    <section id="projects" class="section container">
+      <div class="section-heading"><span>03</span><h2>Featured Projects</h2></div>
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-top"><span class="project-number">01</span><i class="fas fa-arrow-up-right-from-square"></i></div>
+          <h3>SkillConnect</h3>
+          <p>A full-stack platform focused on connecting users around skills, learning and collaboration.</p>
+          <div class="project-tags"><span>Web Development</span><span>Full-Stack</span></div>
+          <a href="https://github.com/keshav1407/skillconnect" target="_blank" rel="noopener">View on GitHub <i class="fab fa-github"></i></a>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-number">02</span><i class="fas fa-arrow-up-right-from-square"></i></div>
+          <h3>AgriSense AI</h3>
+          <p>AI-powered agricultural decision support concept combining modern web development with intelligent assistance.</p>
+          <div class="project-tags"><span>AI</span><span>React</span><span>Spring Boot</span></div>
+          <a href="https://github.com/keshav1407" target="_blank" rel="noopener">Explore GitHub <i class="fab fa-github"></i></a>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-number">03</span><i class="fas fa-arrow-up-right-from-square"></i></div>
+          <h3>TaskFlow API</h3>
+          <p>A backend API project focused on clean task management endpoints and practical REST API development.</p>
+          <div class="project-tags"><span>Node.js</span><span>Express</span><span>API</span></div>
+          <a href="https://github.com/keshav1407" target="_blank" rel="noopener">Explore GitHub <i class="fab fa-github"></i></a>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-number">04</span><i class="fas fa-arrow-up-right-from-square"></i></div>
+          <h3>FitZone</h3>
+          <p>A responsive web project demonstrating frontend design, structured layouts and user-focused interfaces.</p>
+          <div class="project-tags"><span>Frontend</span><span>Responsive UI</span></div>
+          <a href="https://github.com/keshav1407" target="_blank" rel="noopener">Explore GitHub <i class="fab fa-github"></i></a>
+        </article>
+      </div>
+    </section>
 
+    <section id="experience" class="section container">
+      <div class="section-heading"><span>04</span><h2>Experience & Education</h2></div>
+      <div class="timeline">
+        <article class="timeline-item"><div class="timeline-dot"></div><div><span class="muted">Virtual Internship · ~70 days</span><h3>Infosys — Python & Django Web Development</h3><p>Worked through Python and Django web development concepts and applied them while developing SkillConnect.</p></div></article>
+        <article class="timeline-item"><div class="timeline-dot"></div><div><span class="muted">2024 — 2028</span><h3>B.Tech — Information Technology</h3><p>Building a strong foundation in software development while exploring full-stack engineering and Artificial Intelligence.</p></div></article>
+      </div>
+    </section>
 
-<section class="skills">
+    <section class="section container coding-section">
+      <div class="coding-card">
+        <div><span class="eyebrow">CODING PROFILE</span><h2>Always learning. Always building.</h2><p>Follow my problem-solving journey on LeetCode as I continue strengthening my programming and DSA skills.</p></div>
+        <a class="btn primary" href="https://leetcode.com/u/itz_kshvx_7/" target="_blank" rel="noopener">Visit LeetCode <i class="fas fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </section>
 
-<h2>Technical Skills</h2>
+    <section id="contact" class="section container contact-section">
+      <div class="section-heading"><span>05</span><h2>Let's Connect</h2></div>
+      <div class="contact-card"><p>Have an opportunity, project idea, or just want to connect? I'd be happy to hear from you.</p><div class="contact-links"><a href="https://github.com/keshav1407" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a><a href="https://www.linkedin.com/in/keshav-thangaraj/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a><a href="https://leetcode.com/u/itz_kshvx_7/" target="_blank" rel="noopener"><i class="fas fa-code"></i> LeetCode</a></div></div>
+    </section>
+  </main>
 
-<div class="skill-box">
-
-<div class="skill">HTML5</div>
-
-<div class="skill">CSS3</div>
-
-<div class="skill">JavaScript</div>
-
-<div class="skill">Bootstrap</div>
-
-<div class="skill">React</div>
-
-<div class="skill">Node.js</div>
-
-<div class="skill">python</div>
-
-<div class="skill">Spring Boot</div>
-
-<div class="skill">MySQL</div>
-
-<div class="skill">Git</div>
-
-<div class="skill">GitHub</div>
-
-<div class="skill">Java</div>
-
-</div>
-
-</section>
-
-
-<section class="projects">
-
-<h2>Featured Projects</h2>
-
-<div class="project-container">
-
-<div class="card">
-
-<h3>Library Management System</h3>
-
-<p>
-Responsive Library Management System developed using HTML,
-CSS, JavaScript, Spring Boot and MySQL.
-</p>
-
-<a href="#">View Project</a>
-
-</div>
-
-<div class="card">
-
-<h3>Student Management System</h3>
-
-<p>
-CRUD application for managing student records with responsive UI.
-</p>
-
-<a href="#">View Project</a>
-
-</div>
-
-<div class="card">
-
-<h3>Portfolio Website</h3>
-
-<p>
-Modern personal portfolio website with responsive layout and animations.
-</p>
-
-<a href="#">View Project</a>
-
-</div>
-
-</div>
-
-</section>
-
-<footer>
-
-<h2>Keshav A T</h2>
-
-<p>Full Stack Developer</p>
-
-<div class="social">
-
-<a href="#"><i class="fab fa-github"></i></a>
-
-<a href="#"><i class="fab fa-linkedin"></i></a>
-
-<a href="#"><i class="fas fa-envelope"></i></a>
-
-</div>
-
-<p>© 2026 All Rights Reserved</p>
-
-</footer>
-
+  <footer><div class="container footer-inner"><div><strong>Keshav A T</strong><p>Full-Stack Developer & AI Enthusiast</p></div><div class="social"><a href="https://github.com/keshav1407" target="_blank" rel="noopener"><i class="fab fa-github"></i></a><a href="https://www.linkedin.com/in/keshav-thangaraj/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a><a href="https://leetcode.com/u/itz_kshvx_7/" target="_blank" rel="noopener"><i class="fas fa-code"></i></a></div></div><p class="copyright">© 2026 Keshav A T. Built with HTML, CSS & JavaScript.</p></footer>
+  <script src="js/script.js"></script>
 </body>
-
 </html>
